@@ -1,0 +1,92 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+
+.logo {
+  width: 120px;
+}
+
+.signin {
+  background: red;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+/* Hero */
+.hero {
+  height: 90vh;
+  background: url("images/bg.jpg") no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+}
+
+.email-box {
+  margin-top: 20px;
+}
+
+.email-box input {
+  padding: 10px;
+  width: 250px;
+}
+
+.email-box button {
+  padding: 10px 20px;
+  background: red;
+  border: none;
+  color: white;
+}
+
+/* Feature */
+.feature {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+  border-top: 8px solid #222;
+}
+
+/* FAQ */
+.faq {
+  padding: 50px;
+  text-align: center;
+}
+
+.faq-item {
+  margin: 10px auto;
+  width: 60%;
+}
+
+.faq-question {
+  width: 100%;
+  padding: 15px;
+  background: #303030;
+  border: none;
+  color: white;
+  text-align: left;
+  cursor: pointer;
+}
+
+.faq-answer {
+  display: none;
+  background: #444;
+  padding: 10px;
+}
